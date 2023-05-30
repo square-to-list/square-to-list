@@ -1,14 +1,18 @@
-from square_to_list.square_to_list import (
-    square_str_to_square_list,
-    square_list_to_line_list,
-)
+from square_to_list.square_to_list import (square_list_to_line_list,
+                                           square_str_to_square_list)
 
 
 def test_square_str_to_square_list():
     square_str = (
-        "+-----+-----+-----+-----+ |  10 |  20 |  30 |  40 | +-----+-----+-----+-----+"
-        "|  50 |  60 |  70 |  80 | +-----+-----+-----+-----+ |  90 | 100 | 110 | 120 | "
-        "+-----+-----+-----+-----+ | 130 | 140 | 150 | 160 | +-----+-----+-----+-----+ "
+        "+-----+-----+-----+-----+ "
+        "|  10 |  20 |  30 |  40 | "
+        "+-----+-----+-----+-----+ "
+        "|  50 |  60 |  70 |  80 | "
+        "+-----+-----+-----+-----+ "
+        "|  90 | 100 | 110 | 120 | "
+        "+-----+-----+-----+-----+ "
+        "| 130 | 140 | 150 | 160 | "
+        "+-----+-----+-----+-----+ "
     )
     print(square_str)
     square_list = [

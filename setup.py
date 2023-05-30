@@ -1,12 +1,11 @@
-from setuptools import setup, find_packages
+from setuptools import find_packages, setup
 
-with open("README.md", "r") as readme_file:
+with open("README.txt", "r") as readme_file:
     readme = readme_file.read()
 
 requirements = [
-    "pytest>=7",
-    "asyncio",
-    "aiohttp",
+    "asyncio>=3.4",
+    "aiohttp>=3.8",
 ]
 
 setup(
